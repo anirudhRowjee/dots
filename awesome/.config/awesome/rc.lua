@@ -696,7 +696,7 @@ end)
 beautiful.useless_gap = 5
 beautiful.border_width = 1
 beautiful.border_focus = "#005f87"
-beautiful.font = "IosevkaTerm NF 10"
+beautiful.font = "IosevkaTerm NF 12"
 
 screen.connect_signal("arrange", function(s)
 	local max = s.selected_tag.layout.name == "max"
